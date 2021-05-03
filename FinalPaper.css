@@ -1,0 +1,155 @@
+/* Layout */
+html,
+body {
+  background: #eee3c8;
+  margin: 0;
+  padding: 0 0 15px;
+}
+article {
+  margin: auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-gap: 0.5em;
+}
+h1,
+cite,
+img,
+main {
+  grid-column: 2;
+}
+aside {
+  font-size: 1.15em;
+  grid-column: 1;
+  font-family: "brandon-grotesque";
+  font-style: italic;
+  text-align: right;
+}
+.firstNote {
+  grid-row: 4;
+  margin-top: 15em;
+}
+.secondNote {
+  grid-row: 5;
+  margin-top: 0em;
+}
+main {
+  font-family: "abril-text";
+  max-width: 100%;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.25em;
+}
+.subTitle {
+  font-weight: bold;
+  font-size: 1.75em;
+}
+.subSubTitle {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
+}
+p:first-child {
+  margin-top: 0;
+}
+/* Title Layout */
+h1 span {
+  display: block;
+}
+.focusing {
+  margin-bottom: -10px;
+}
+.the {
+  transform: translateY(50%);
+  background: #eee3c8;
+  width: 50px;
+  margin: auto;
+}
+.heart {
+  border: thin solid black;
+  border-width: thin 0;
+  padding: 10px 0 0;
+}
+/* Typography */
+h1 {
+  text-align: center;
+}
+.focusing {
+  font-family: "questa-grande";
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.the {
+  font-family: "brandon-grotesque";
+  text-transform: uppercase;
+  font-size: 0.5em;
+}
+.heart {
+  font-family: "ltc-bodoni-175";
+  text-transform: uppercase;
+}
+cite {
+  font-family: "brandon-grotesque";
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+.name {
+  font-weight: 900;
+}
+.hemoglobin {
+  height: auto;
+  width: 100%;
+}
+.clearfix {
+  overflow: auto;
+}
+.rightFloat {
+  width: 70%;
+  float: right;
+  margin-left: 0.5em;
+}
+.rightFloatSmall {
+  width: 62%;
+  float: right;
+  margin-left: 0.5em;
+}
+.leftFloat {
+  width: 60%;
+  float: left;
+  margin-right: 0.5em;
+}
+.full {
+  width: 100%;
+}
+.imageCitation {
+  text-align: center;
+  margin-top: 0 !important;
+  margin-bottom: 0.1em !important;
+}
+
+@media only screen and (min-width: 750px) {
+  /* Layout */
+  html,
+  body {
+    padding: 30px 0;
+  }
+  article {
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-gap: 1.5em;
+  }
+  main {
+    margin: 0;
+  }
+  /* Title */
+  .focusing {
+    font-size: 2.2em;
+    margin-bottom: -15px;
+  }
+  .the {
+    font-size: 0.75em;
+  }
+  .heart {
+    font-size: 2em;
+  }
+}
