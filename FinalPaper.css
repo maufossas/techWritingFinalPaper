@@ -29,12 +29,28 @@ aside {
   text-align: right;
 }
 .firstNote {
-  grid-row: 4;
+  grid-row: 5;
   margin-top: 15em;
 }
 .secondNote {
-  grid-row: 5;
+  grid-row: 6;
   margin-top: 45em;
+}
+.thirdNote {
+  grid-row: 7;
+  margin-top: 30em;
+}
+.fourthNote {
+  grid-row: 8;
+  margin-top: 25em;
+}
+.fifthNote {
+  grid-row: 9;
+  margin-top: 10em;
+}
+.sixthNote {
+  grid-row: 11;
+  margin-top: 35em;
 }
 main {
   font-family: "abril-text";
@@ -115,6 +131,11 @@ cite {
 }
 .rightFloatSmall {
   width: 62%;
+  float: right;
+  margin-left: 0.5em;
+}
+.rightFloatSmallSmall {
+  width: 30%;
   float: right;
   margin-left: 0.5em;
 }
