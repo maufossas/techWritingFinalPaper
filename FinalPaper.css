@@ -212,6 +212,61 @@ cite {
   opacity: 0.7;
 }
 
+#image1:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#imageToModal:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#image3:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#image4:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#image5:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#image6:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#image7:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#image8:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#image9:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#image10:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#image11:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
